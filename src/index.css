@@ -1,0 +1,71 @@
+
+/*navbar*/
+.bg-nav {
+    background-color: #26344b;
+}
+
+.custom-link {
+    color: white;
+    background-color: #1d2738;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: .1s;
+}
+
+.custom-link:hover {
+    background-color: #111827;
+}
+
+.nav-logo {
+    transition: .1s;
+}
+
+.nav-logo:hover {
+    transform: scale(1.02);
+}
+
+/*SIDE BAR*/
+
+
+/* home */
+.card-link {
+    transition: .1s;
+}
+
+.card-link:hover {
+    transform: scale(1.050);
+}
+
+.card-img-top {
+    width: 250px;
+    height: 150px;
+}
+
+.highlights-item {
+    background-color: #ffffff;
+}
+
+.highlights-item:hover {
+    background-color: #eeeefe;
+}
+
+.text-justify {
+    text-align: justify;
+  }
+
+/*footer*/
+.footer-slogan {
+    text-decoration: none;
+    font-size: large;
+}
+
+.custom-footer-link {
+    text-decoration: none;
+    font-size: large;
+}
+
+.custom-footer-link:hover {
+    text-decoration: underline;
+}

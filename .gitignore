@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diretórios de dependências
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Cache do Vite
+.vite/
+
+# Arquivos de ambiente (segurança!)
+.env
+.env.*.local
+*.local
+
+# Arquivos temporários ou de bloqueio
+*.pid
+*.seed
+*.tgz
+
+# Diretórios e arquivos de editores
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema operacional
+Thumbs.db
