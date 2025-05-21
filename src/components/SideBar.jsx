@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function SideBar() {
     return (
         <div className="d-flex flex-column gap-3">
@@ -8,13 +10,62 @@ function SideBar() {
                         <button type="button" className="list-group-item list-group-item-action fw-bold" aria-current="true">
                             GERADORES
                         </button>
-                        <button type="button" className="list-group-item list-group-item-action d-flex justify-content-between">Gerador de CPF <i class="bi bi-arrow-right"></i></button>
-                        <button type="button" className="list-group-item list-group-item-action d-flex justify-content-between">Gerador de CNPJ <i class="bi bi-arrow-right"></i></button>
-                        <button type="button" className="list-group-item list-group-item-action d-flex justify-content-between">Gerador de RG <i class="bi bi-arrow-right"></i></button>
-                        <button type="button" className="list-group-item list-group-item-action d-flex justify-content-between">Gerador de CEP <i class="bi bi-arrow-right"></i></button>
-                        <button type="button" className="list-group-item list-group-item-action d-flex justify-content-between">Gerador de Telefone <i class="bi bi-arrow-right"></i></button>
-                        <button type="button" className="list-group-item list-group-item-action d-flex justify-content-between">Gerador de CNH <i class="bi bi-arrow-right"></i></button>
-                        <button type="button" className="list-group-item list-group-item-action d-flex justify-content-between">Gerador de Título de Eleitor <i class="bi bi-arrow-right"></i></button>
+
+                        <Link
+                            to="/gerador_de_CPF"
+                            className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                        >
+                            <span>Gerador de CPF</span>
+                            <i className="bi bi-arrow-right"></i>
+                        </Link>
+
+                        <Link
+                            to="/gerador_de_CNPJ"
+                            className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                        >
+                            <span>Gerador de CNPJ</span>
+                            <i className="bi bi-arrow-right"></i>
+                        </Link>
+
+                        <Link
+                            to="/gRG"
+                            className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                        >
+                            <span>Gerador de RG</span>
+                            <i className="bi bi-arrow-right"></i>
+                        </Link>
+
+                        <Link
+                            to="/gCEP"
+                            className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                        >
+                            <span>Gerador de CEP</span>
+                            <i className="bi bi-arrow-right"></i>
+                        </Link>
+
+                        <Link
+                            to="/gTelefone"
+                            className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                        >
+                            <span>Gerador de Telefone</span>
+                            <i className="bi bi-arrow-right"></i>
+                        </Link>
+
+                        <Link
+                            to="/gCNH"
+                            className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                        >
+                            <span>Gerador de CNH</span>
+                            <i className="bi bi-arrow-right"></i>
+                        </Link>
+
+                        <Link
+                            to="/gTituloEleitor"
+                            className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                        >
+                            <span>Gerador de Título de Eleitor</span>
+                            <i className="bi bi-arrow-right"></i>
+                        </Link>
                     </div>
 
                     <div className="list-group text-start">
