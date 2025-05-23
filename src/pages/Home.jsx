@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
     return (
         <div>
@@ -7,7 +9,7 @@ function Home() {
 
             <div className="d-flex flex-column gap-4">
                 <div className="row">
-                    <a href="https://www.probocontabilidade.com.br/wp2019/wp-content/uploads/2021/01/cpf.jpg" className="col card-link">
+                    <Link to="/gerador_de_CPF" className="col card-link">
                         <div className="card">
                             <img src="/src/assets/card-img/cpf-card.png" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -16,8 +18,9 @@ function Home() {
                                 </p>
                             </div>
                         </div>
-                    </a>
-                    <a href="https://www.probocontabilidade.com.br/wp2019/wp-content/uploads/2021/01/cpf.jpg" className="col card-link">
+                    </Link>
+
+                    <Link to="#" className="col card-link">
                         <div className="card">
                             <img src="/src/assets/card-img/cnh-card.png" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -26,8 +29,9 @@ function Home() {
                                 </p>
                             </div>
                         </div>
-                    </a>
-                    <a href="https://www.probocontabilidade.com.br/wp2019/wp-content/uploads/2021/01/cpf.jpg" className="col card-link">
+                    </Link>
+
+                    <Link to="/gerador_de_CNPJ" className="col card-link">
                         <div className="card">
                             <img src="/src/assets/card-img/cnpj-card.png" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -36,8 +40,9 @@ function Home() {
                                 </p>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
+                
                 <div className="row">
                     <a href="https://www.probocontabilidade.com.br/wp2019/wp-content/uploads/2021/01/cpf.jpg" className="col card-link">
                         <div className="card">
@@ -91,7 +96,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

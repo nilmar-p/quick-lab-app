@@ -46,9 +46,11 @@ function G_CPF() {
                 generatedCpf.slice(6, 9) + '-' +
                 generatedCpf.slice(9, 11)
             );
-        } else {
-            setCpf(generatedCpf);
+
+            return;
         }
+
+        setCpf(generatedCpf)
     }
 
 
